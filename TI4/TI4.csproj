@@ -103,16 +103,19 @@
     <TypeScriptCompile Include="src\app\app.component.spec.ts" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
-    <TypeScriptCompile Include="src\common\player.service.ts">
+    <TypeScriptCompile Include="src\app\shared\toggleList.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\shared.module.ts" />
+    <TypeScriptCompile Include="src\app\shared\interfaces\IToggleListTemViewModel.ts" />
+    <TypeScriptCompile Include="src\app\shared\player.service.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="src\common\enums\PlayerColour.ts">
+    <TypeScriptCompile Include="src\app\shared\enums\PlayerColour.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="src\common\interfaces\IPlayer.ts">
+    <TypeScriptCompile Include="src\app\shared\interfaces\IPlayer.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
-    <TypeScriptCompile Include="src\common\interfaces\IRace.ts">
+    <TypeScriptCompile Include="src\app\shared\interfaces\IRace.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\main.ts" />

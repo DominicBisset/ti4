@@ -1,5 +1,8 @@
+import { Injectable } from "@angular/core";
 import { IPlayer } from "./interfaces/IPlayer";
+import { PlayerColour } from "./enums/PlayerColour";
 
+@Injectable()
 export class PlayerService {
   private players: IPlayer[] = [
     {
@@ -24,7 +27,8 @@ export class PlayerService {
     },
   ];
 
-  getPlayers() {
-    return this.players;
+  getPlayers(): Promise<IPlayer[]>{
+    console.debug("PlayerService.GetPlayers() called.");
+    return Promise.resolve(this.players);
   }
 }
