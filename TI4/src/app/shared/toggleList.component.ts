@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { PlayerService } from '../shared/player.service';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { IToggleListItemViewModel } from '../shared/interfaces/IToggleListTemViewModel';
 
 @Component({
@@ -7,28 +6,9 @@ import { IToggleListItemViewModel } from '../shared/interfaces/IToggleListTemVie
   template: `<div *ngFor="let toggleItem of toggleItems">
               <h1>Hello {{toggleItem.label}}</h1>
               <p>Current state {{toggleItem.state}}</p>
-</div>`,
-  providers: [PlayerService]
+</div>`
 })
 export class ToggleListComponent {
-  toggleItems: IToggleListItemViewModel[];
-  constructor(private playerService: PlayerService) { }
-  ngOnInit() {
-    this.getItems();
-  }
-  getItems(): void {
-    console.debug("ToggleListComponent.GetPlayers() called.");
-    this.playerService
-      .getPlayers()
-      .then(players => this.toggleItems = players
-        .map<IToggleListItemViewModel>((player, idx, all) => {
-          return {
-            label: player.name,
-            imgUrl: player.avatar,
-            state: true
-          }
-        })
-      );
-
-  }
+  @Input() toggleItems: IToggleListItemViewModel[];
+  //@Output() itemToggled: EventEmitter<IToggleItemClicked>;
 }
