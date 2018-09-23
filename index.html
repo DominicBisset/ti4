@@ -60,7 +60,21 @@
                 font-family: 'Nunito', sans-serif;
                 
             }
-
+            
+            .embed-container { 
+                position: relative; 
+                padding-bottom: 56.25%; 
+                height: 0; 
+                overflow: hidden; 
+                max-width: 100%;
+            }
+            .embed-container iframe, .embed-container object, .embed-container embed { 
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
         </style>
     </head>
     <body>
@@ -102,13 +116,19 @@
                 </p>
                 <h3>SU&amp;SD play TI3</h3>
                 <p>Yes it uses the old version of the game but it does capture the emotions that you'll experience.  It ends slightly anticlimatically because they misplayed a rule, but hopefully you get the idea.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vfcKY4GUzOk" frameborder="0" allowfullscreen></iframe>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/vfcKY4GUzOk" frameborder="0" allowfullscreen></iframe>
+                </div>
                 <h3>SU&amp;SD review TI4</h3>
                 <p>A review of the latest version of the game.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/PLybps39ZwM" frameborder="0" allowfullscreen></iframe>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/PLybps39ZwM" frameborder="0" allowfullscreen></iframe>
+                </div>
                 <h3>SU&amp;SD's making of TI4 documentary</h3>
                 <p>An interesting behind-the-scenes look at how this behemoth of a game came into being</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/iUpFlkTvQgg" frameborder="0" allowfullscreen></iframe>
+                <div class='embed-container'>
+                    <iframe src="https://www.youtube.com/embed/iUpFlkTvQgg" frameborder="0" allowfullscreen></iframe>
+                </div>
                 
             </section>
             <section id="section_commitment">
