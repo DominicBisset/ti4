@@ -6,7 +6,7 @@ import { IToggleListItemViewModel } from "./shared/interfaces/IToggleListTemView
   selector: 'my-app',
   template: `
     <h1>Hello {{name}}</h1>
-    <ti-toggleList [toggleItems]="toggleItems"></ti-toggleList>
+    <ti-toggleList [toggleItems]="toggleItems" boxSize="100" maxWidth="600"></ti-toggleList>
   `,
   providers:[PlayerService]
 })
@@ -26,6 +26,7 @@ export class AppComponent  {
           return {
             label: player.name,
             imgUrl: player.avatar,
+            colour: player.colour,
             state: true
           }
         })

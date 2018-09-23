@@ -25,6 +25,106 @@ export class PlayerService {
       },
       avatar: ""
     },
+    {
+      position: 1,
+      name: "Dom",
+      colour: PlayerColour.Black,
+      race: {
+        name: "Hacan",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 2,
+      name: "Ben",
+      colour: PlayerColour.Blue,
+      race: {
+        name: "Sol",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 1,
+      name: "Dom",
+      colour: PlayerColour.Black,
+      race: {
+        name: "Hacan",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 2,
+      name: "Ben",
+      colour: PlayerColour.Blue,
+      race: {
+        name: "Sol",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 1,
+      name: "Dom",
+      colour: PlayerColour.Black,
+      race: {
+        name: "Hacan",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 2,
+      name: "Ben",
+      colour: PlayerColour.Blue,
+      race: {
+        name: "Sol",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 1,
+      name: "Dom",
+      colour: PlayerColour.Black,
+      race: {
+        name: "Hacan",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 2,
+      name: "Ben",
+      colour: PlayerColour.Blue,
+      race: {
+        name: "Sol",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 1,
+      name: "Dom",
+      colour: PlayerColour.Black,
+      race: {
+        name: "Hacan",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
+    {
+      position: 2,
+      name: "Ben",
+      colour: PlayerColour.Blue,
+      race: {
+        name: "Sol",
+        posibleAvatars: []
+      },
+      avatar: ""
+    },
   ];
 
   getPlayers(): Promise<IPlayer[]>{

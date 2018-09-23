@@ -3,12 +3,14 @@ import { IToggleListItemViewModel } from '../shared/interfaces/IToggleListTemVie
 
 @Component({
   selector: 'ti-toggleList',
-  template: `<div *ngFor="let toggleItem of toggleItems">
-              <h1>Hello {{toggleItem.label}}</h1>
-              <p>Current state {{toggleItem.state}}</p>
-</div>`
+  templateUrl: './toggleList.component.html'
 })
 export class ToggleListComponent {
   @Input() toggleItems: IToggleListItemViewModel[];
+  @Input() maxWidth: number;
+  @Input() boxSize: number;
+  clicked(item: IToggleListItemViewModel) {
+    item.state = !item.state;
+  }
   //@Output() itemToggled: EventEmitter<IToggleItemClicked>;
 }

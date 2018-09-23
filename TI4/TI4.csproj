@@ -74,6 +74,7 @@
     <Content Include="bs-config.e2e.json" />
     <Content Include="bs-config.json" />
     <None Include="packages.config" />
+    <Content Include="src\app\shared\toggleList.component.html" />
     <Content Include="src\tsconfig.json" />
     <Content Include="tslint.json" />
     <None Include="Web.Debug.config">
