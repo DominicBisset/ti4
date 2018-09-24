@@ -29,6 +29,8 @@
             form>div>span{
                 flex: auto;
             }
+    
+
             @media screen and (min-width: 56em){
                 body{
                     padding: 3em;
@@ -43,7 +45,9 @@
                     width: 38em;                    
                     padding-left: 2em;
                 }
-                
+                span.subheading{
+                    padding-left: 1em;
+                }
 
             }
             @media screen and (min-width: 70em){
@@ -52,16 +56,22 @@
                     left: 52em
                 }
             }
-            h1,h2,h3,h4,h5,h6, header p, #section_abstract p{
-                font-family: 'Spectral SC', serif;
-                margin-top: 1.5em;
-                margin-bottom: 0.5em;
-            }
+
             p,li,span{
                 font-family: 'Nunito', sans-serif;
-                
+                margin-top: 0px;
             }
             
+            h1,h2,h3,h4,h5,h6, header p, header span, #section_abstract p{
+                font-family: 'Spectral SC', serif;
+                margin-top: 1.5em;
+                margin-bottom: 0em;
+            }
+
+            .subheading{
+                color: gray
+            }
+
             .embed-container { 
                 position: relative; 
                 padding-bottom: 56.25%; 
@@ -76,12 +86,12 @@
                 width: 100%;
                 height: 100%;
             }
-        
+    
         </style>
     </head>
     <body>
         <header>
-            <h1>Let's Play Twilight Imperium<br/>Round Two</h1>
+            <h1>Let's Play Twilight Imperium<br/><span class="subheader">Round Two<span></h1>
             <p>Join me on the 3rd of November 2018 to play an eight-hour Space Opera</p>
         </header>
         <aside>
