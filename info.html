@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Twilight Imperium Games Day</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito|Spectral+SC" rel="stylesheet"> 
+        <style>
+            
+            body{
+                padding: 1.5em;
+            }
+            input[type=submit]{
+                float:right;
+            }
+            form{
+                padding-top: 3em;
+                padding-bottom: 3em;
+            }
+            form>div{
+                display:  flex;
+                padding-bottom: 2em;
+            }
+            form>div>input[type=checkbox]{
+                flex: 0 0 auto;
+                position: relative;
+                left: -1em;
+            }
+            form>div>label{
+                flex: auto;
+            }
+    
+
+            @media screen and (min-width: 56em){
+                body{
+                    padding: 3em;
+                }
+                main, header, footer{
+                    width: 45em;
+                }
+                aside{
+                    width: 25em;
+                }
+                form{
+                    width: 38em;                    
+                    padding-left: 2em;
+                }
+                span.subheading{
+                    padding-left: 1em;
+                }
+
+            }
+            @media screen and (min-width: 70em){
+                aside{
+                    position:fixed;
+                    left: 52em
+                }
+            }
+
+            p,li,span,label{
+                font-family: 'Nunito', sans-serif;
+                margin-top: 0px;
+            }
+            
+            h1,h2,h3,h4,h5,h6, header p, header span, #section_abstract p{
+                font-family: 'Spectral SC', serif;
+                margin-top: 1.5em;
+                margin-bottom: 0em;
+            }
+
+            .subheading{
+                color: gray
+            }
+
+            .embed-container { 
+                position: relative; 
+                padding-bottom: 56.25%; 
+                height: 0; 
+                overflow: hidden; 
+                max-width: 100%;
+            }
+            .embed-container iframe, .embed-container object, .embed-container embed { 
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Let's Play Twilight Imperium<br/><span class="subheading">Round Two<span></h1>
+            <p>Join me on the 3rd of November 2018 to play an eight-hour Space Opera</p>
+        </header>
+        <aside>
+            <h2>Key Details:</h2>
+            <ul>
+                <li>Where: My House</li>
+                <li>When: Saturday, 3rd of November</li>
+                <li>What time: 10:30am sharp</li>
+                <li>Places are given out on request and on commitment of reading the rules, being on time, and acting according to the spirit of the game</li>
+            </ul>
+        </aside>
+        <main>
+            <section id="section_abstract">
+                <p>
+                    I own <a href="https://www.fantasyflightgames.com/en/products/twilight-imperium-fourth-edition">Twilight Imperium.</a>  Its an eight-hour, six player game. This is not something you pull out casually after dinner.  This takes organisation.
+                </p>
+            </section>
+            <section id="section_event">
+                <h2>Techs</h2>
+                <p>
+                    Here's a list of the game's techs for reference:
+                </p>
+                <ul id="ul_techlist">
+
+                </ul>
+            </section>
+            <script>
+                (async function(){
+                let response = await fetch('./data/technologies.json');
+                let data = await response.json();
+                var d = document;
+                var list = d.getElementById("ul_techlist");
+                for(key in data.techs){
+                    var tech = data.techs[key];
+                    var li = d.createElement("li");
+                    li.textContent  = tech.name;
+                    list.appendChild(li);
+                }
+                })();
+            </script>
+        </main>
+    </body>
+</html>
+    
