@@ -38,7 +38,7 @@
         },
         "race":{
             "description":"Name of race for which this tech is distinct to",
-            "$ref":"https://ti4.dominicbisset.co.uk/data/schema.race.json"
+            "$ref":"https://ti4.dominicbisset.co.uk/data/schema.raceName.json"
         }
     },
     "required": [
