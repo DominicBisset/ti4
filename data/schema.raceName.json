@@ -1,0 +1,26 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://ti4.dominicbisset.co.uk/data/schema.raceName.json",
+    "title": "TI4 JSON Race Names",
+    "description": "List of valid race short-names",
+    "type":"string",
+    "enum":[
+        "Sol",
+        "Hacan",
+        "Xxcha",
+        "Saas",
+        "Naalu",
+        "Letnev",
+        "Yssaril",
+        "Jol-Nar",
+        "N'Orr",
+        "Muaat",
+        "Winnu",
+        "Nekro",
+        "Mentak",
+        "Arborec",
+        "Creuss",
+        "l1z1x",
+        "Yin"
+    ]
+}

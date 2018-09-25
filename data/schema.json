@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://ti4.dominicbisset.co.uk/data/schema.json",
+    "title": "TI4 JSON",
+    "description": "Schema for representing TI4 card data",
+    "type":"object",
+    "properties":{
+        "techs":{
+            "description":"List of TI4 Techs",
+            "type":"array",
+            "items": {
+                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"
+            }
+        }
+    }
+}
