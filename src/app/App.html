@@ -1,14 +1,11 @@
 <h1>Hello {name}!</h1>
+<TechList></TechList>
 
-<!--
-This is a Svelte component. Click the toggle
-below right to see the generated code.
-
-You can interact with this component via your
-browser's console - try running the following:
-
-    app.set({ name: 'everybody' });
-
-You can also update the data via the JSON
-editor on this page.
--->
+<script>
+    import TechList from './TechList.html';
+    export default{
+        components: {
+            TechList
+        }
+    }
+</script>
