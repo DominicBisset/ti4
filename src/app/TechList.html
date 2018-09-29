@@ -1,0 +1,45 @@
+<h2>Techs</h2>
+<p>
+    Here's a list of the game's techs for reference:
+</p>
+
+<div id="techlist">
+
+</div>
+
+
+<script>
+    (async function(){
+    let response = await fetch('./data/technologies.json');
+    let data = await response.json();
+    var d = document;
+    var list = d.getElementById("techlist");
+    for(key in data.techs){
+        var tech = data.techs[key];
+        var div = d.createElement("div");
+        div.setAttribute("class","techitem");
+        var h3 = d.createElement("h3");
+        h3.textContent  = tech.name;
+        div.appendChild(h3);
+        for (textFragment in tech.text.split('\n')){
+            var p = d.createElement("p");
+            p.textContent  = textFragment;
+            div.appendChild(p);
+        }
+        prerequisiteGroups = tech.prerequisites.reduce((groups, prerequisite)=>{
+                groups[prerequisite] = (groups[prerequisite] || 0) + 1;
+                return groups
+            },{});
+        for (key2 in prerequisiteGroups){
+            prerequisiteGroup = prerequisiteGroups[key2];
+            var icon = d.createElement("p");
+            p.textContent  = string(prerequisiteGroup);
+            div.appendChild(p);
+        }
+        var h3 = d.createElement("h3");
+        h3.textContent  = tech.name;
+        div.appendChild(h3);
+        list.appendChild(div);
+    }
+    })();
+</script>
