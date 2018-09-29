@@ -1,0 +1,58 @@
+[
+    {
+        "class":"Infantry",
+        "cost":1,
+        "unitsPerPurchase":2,
+        "move":0,
+        "combat": 8,
+        "capacity": 0,
+        "abilities":[],
+        "variants":[
+            {
+                
+            },
+            {
+                "upgradeCost":"gg",
+                "cost":1,
+                "unitsPerPurchase":2,
+                "move":0,
+                "combat": 7,
+                "capacity": 0,
+                "abilities":[
+                    {
+                        "name":"Gen Synthesis",
+                        "text":"After this unit is destroyed, roll 1 die.  If the result is 6 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name":"Fighter",
+        "cost":1,
+        "unitsPerPurchase":2,
+        "move":0,
+        "combat": 9,
+        "capacity": 0,
+        "upgradeCost":"gb"
+    },
+    {
+        "name":"Carrier",
+        "cost":3,
+        "unitsPerPurchase":1,
+        "move":1,
+        "combat": 9,
+        "capacity": 4,
+        "upgradeCost":"bb"
+    },
+    {
+        "name":"Destroyer",
+        "cost":1,
+        "unitsPerPurchase":1,
+        "move":1,
+        "combat": 9,
+        "capacity": 4,
+        "upgradeCost":"rr"
+    }
+
+]

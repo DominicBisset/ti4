@@ -6,3 +6,5 @@
 /packages
 /TI4/bin
 /TI4/obj/Debug
+/public
+/node_modules
