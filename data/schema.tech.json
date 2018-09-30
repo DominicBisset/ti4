@@ -15,26 +15,23 @@
         },
         "prerequisites":{
             "description":"List of tech type prerequisites",
-            "type":"array",
-            "items":{
-                "type":"string",
-                "enum": [
-                    "r",
-                    "g",
-                    "b",
-                    "y"
-                ]
+            "type":"object",
+            "properties":{
+                    "r":{"type":"integer"},
+                    "g":{"type":"integer"},
+                    "b":{"type":"integer"},
+                    "y":{"type":"integer"}
             }
         },
         "provides":{
             "description":"Tech type provided by researching tech",
-            "type":"string",
-            "enum": [
-                "r",
-                "g",
-                "b",
-                "y"
-            ]
+            "type":"object",
+            "properties":{
+                    "r":{"type":"integer"},
+                    "g":{"type":"integer"},
+                    "b":{"type":"integer"},
+                    "y":{"type":"integer"}
+            }
         },
         "race":{
             "description":"Name of race for which this tech is distinct to",
