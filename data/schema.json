@@ -11,6 +11,13 @@
             "items": {
                 "$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"
             }
+        },
+        "ships":{
+            "description":"List of TI4 Ships",
+            "type":"array",
+            "items": {
+                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.ship.json"
+            }
         }
     }
 }
