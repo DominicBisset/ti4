@@ -13,7 +13,7 @@
             "description": "No of resources required to manufacture unit.",
             "type":"integer"
         },
-        "shipsPerPurchase":{
+        "unitsPerPurchase":{
             "description": "No of ships produced with each payment.",
             "type":"integer"
         },
@@ -40,10 +40,10 @@
     "required": [
         "class",
         "cost",
-        "shipsPerPurchase",
+        "unitsPerPurchase",
         "combat",
         "move",
-        "capactiy",
-        "abilites"
+        "capacity",
+        "abilities"
     ]
 }
