@@ -1,0 +1,48 @@
+<div>
+    <h3>{tech.name}</h3>
+    {#each tech.textLines as line}
+        <p>{line}</p>
+    {/each}
+    {#each Object.entries(tech.prerequesites) as [prerequisite, count]}
+        {#each range(count) as c}
+            <div class="prerequisite {prerequisite}">&nbsp;</div>
+        {/each}
+    {/each}
+</div>
+
+<style>
+    .prerequisite{
+        width: 30px;
+        height:30px;
+        border-radius: 15px;
+        display: inline-block
+    }
+    .r{
+        background-color: red
+    }
+    .g{
+        background-color: green
+    }
+    .b{
+        background-color: blue
+    }
+    .y{
+        background-color: yellow
+    }
+</style>
+
+<script>
+    export default{
+        helpers:{
+            range: function(max){
+                let output = []
+                let c = 0;
+                while( c!= max){
+                    output.push(c);
+                    c += 1;
+                }
+                return output;
+            }
+        }
+    }
+</script>

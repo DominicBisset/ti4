@@ -4,42 +4,35 @@
 </p>
 
 <div id="techlist">
-
+    {#each techs as tech}
+    <TechItem {tech}></TechItem>
+    {/each}
 </div>
 
 
 <script>
-    (async function(){
-    let response = await fetch('./data/technologies.json');
-    let data = await response.json();
-    let d = document;
-    let list = d.getElementById("techlist");
-    for(let key in data.techs){
-        let tech = data.techs[key];
-        console.log(tech)
-        let div = d.createElement("div");
-        div.setAttribute("class","techitem");
-        let h3 = d.createElement("h3");
-        h3.textContent  = tech.name;
-        div.appendChild(h3);
-        let splitText= tech.text.split('\n');
-        for (let k2 in splitText ){
-            let textFragment = splitText[k2];
-            let p = d.createElement("p");
-            p.textContent  = textFragment;
-            div.appendChild(p);
+    import TechItem from './TechItem.html';
+    export default{
+        components: {
+            TechItem
+        },
+        data(){
+            return {
+                techs:[
+                    {
+                          name:"test1"
+                        , textLines:["this is test 1 line1","this is test1 line2"]
+                        , prerequesites:{g:1}
+                    },
+                    {
+                          name:"test2"
+                        , textLines:["this is test 2 line1"]
+                        , prerequesites:{g:1,r:2}
+                    }
+                ]
+            }
         }
-        // let prerequisiteGroups = tech.prerequisites.reduce((groups, prerequisite)=>{
-        //         groups[prerequisite] = (groups[prerequisite] || 0) + 1;
-        //         return groups
-        //     },{});
-        // for (let key2 in prerequisiteGroups){
-        //     prerequisiteGroup = prerequisiteGroups[key2];
-        //     let icon = d.createElement("p");
-        //     p.textContent  = string(prerequisiteGroup);
-        //     div.appendChild(p);
-        // }
-        list.appendChild(div);
+
     }
-    })();
+
 </script>
