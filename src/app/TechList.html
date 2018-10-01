@@ -4,35 +4,25 @@
 </p>
 
 <div id="techlist">
-    {#each techs as tech}
-    <TechItem {tech}></TechItem>
-    {/each}
+    <!-- {#await $techs}
+        <p>Loading</p>
+    {:then}-->
+        {#each $techs as tech} 
+        <TechItem {tech}></TechItem>
+        {/each}
+    <!--{/await} -->
 </div>
 
 
 <script>
     import TechItem from './TechItem.html';
-    export default{
+    import store from './data/tech.store.js';
+    
+    export default {
+        store: () => store,
         components: {
             TechItem
-        },
-        data(){
-            return {
-                techs:[
-                    {
-                          name:"test1"
-                        , textLines:["this is test 1 line1","this is test1 line2"]
-                        , prerequesites:{g:1}
-                    },
-                    {
-                          name:"test2"
-                        , textLines:["this is test 2 line1"]
-                        , prerequesites:{g:1,r:2}
-                    }
-                ]
-            }
         }
-
-    }
-
+    }; 
+    window.store =store;
 </script>

@@ -1,9 +1,9 @@
 <div>
     <h3>{tech.name}</h3>
-    {#each tech.textLines as line}
+    {#each tech.text.split("\n") as line}
         <p>{line}</p>
     {/each}
-    {#each Object.entries(tech.prerequesites) as [prerequisite, count]}
+    {#each Object.entries(tech.prerequisites) as [prerequisite, count]}
         {#each range(count) as c}
             <div class="prerequisite {prerequisite}">&nbsp;</div>
         {/each}
