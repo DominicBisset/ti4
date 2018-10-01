@@ -4,13 +4,9 @@
 </p>
 
 <div id="techlist">
-    <!-- {#await $techs}
-        <p>Loading</p>
-    {:then}-->
-        {#each $techs as tech} 
+    {#each $techs as tech} 
         <TechItem {tech}></TechItem>
-        {/each}
-    <!--{/await} -->
+    {/each}
 </div>
 
 
