@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://ti4.dominicbisset.co.uk/data/schema.shipupgrade.json",
+    "title": "TI4 JSON Ships",
+    "description": "Schema for representing TI4 ship upgrades",
+    "type":"object",
+    "allOf": [
+        {
+            "$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"
+        },
+        {
+            "properties":{
+                "class":{
+                    "description":"Base type of ship",
+                    "type":"string"
+                },
+                "cost":{
+                    "description": "No of resources required to manufacture unit.",
+                    "type":"integer"
+                },
+                "unitsPerPurchase":{
+                    "description": "No of ships produced with each payment.",
+                    "type":"integer"
+                },
+                "combat":{
+                    "description": "Minimum roll required on a d10 to producte a hit in combat.",
+                    "type":"integer"
+                },
+                "combatDice":{
+                    "description": "Number of dice to roll for each ship of this class in combat.",
+                    "type":"integer"
+                },
+                "move":{
+                    "description": "No of hexes this ship ccould move during a tactical action to reach the active system.",
+                    "type":"integer"
+                },
+                "capacity":{
+                    "description": "No of infantry and fighters that can be TRANSPORTed along with this ship during a move.",
+                    "type":"integer"
+                },
+                "abilities":{
+                    "description": "Special abilities that this unit has",
+                    "type":"array",
+                    "items":{
+                        "type":"string"
+                    }
+                }
+            }
+        }
+    ]
+}
