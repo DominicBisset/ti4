@@ -5,7 +5,11 @@
     {/each}
     {#each Object.entries(tech.prerequisites) as [prerequisite, count]}
         {#each range(count) as c}
-            <div class="prerequisite {prerequisite}">&nbsp;</div>
+            {#if prerequisite==='r'}
+                <WarfareTechIcon></WarfareTechIcon>
+            {:else}
+                <div class="prerequisite {prerequisite}">&nbsp;</div>
+            {/if}
         {/each}
     {/each}
     {#each Object.entries(tech.provides) as [provides, count]}
@@ -43,7 +47,11 @@
 </style>
 
 <script>
+    import WarfareTechIcon from "./WarfareTechIcon.html";
     export default{
+        components:{
+            WarfareTechIcon
+        },
         helpers:{
             range: function(max){
                 let output = []
