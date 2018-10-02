@@ -7,6 +7,7 @@
             "unitsPerPurchase":2,
             "move":0,
             "combat": 8,
+            "combatDice": 1,
             "capacity": 0,
             "abilities":[]
         },
@@ -16,6 +17,7 @@
             "unitsPerPurchase":2,
             "move":0,
             "combat": 9,
+            "combatDice": 1,
             "capacity": 0,
             "abilities":[]
         },
@@ -25,6 +27,7 @@
             "unitsPerPurchase":1,
             "move":1,
             "combat": 9,
+            "combatDice": 1,
             "capacity": 4,
             "abilities":[]
         },
@@ -34,17 +37,19 @@
             "unitsPerPurchase":1,
             "move":2,
             "combat": 9,
+            "combatDice": 1,
             "capacity": 0,
-            "abilities":["Anti-Fighter Barrage 9 (x2)"]
+            "abilities":["ANTI-FIGHTER BARRAGE 9 (x2)"]
         },
         {
             "class":"Dreadnought",
             "cost":4,
             "unitsPerPurchase":1,
             "move":1,
+            "combatDice": 1,
             "combat": 5,
             "capacity": 1,
-            "abilities":["Sustain Damage", "Bombardment 5"]
+            "abilities":["SUSTAIN DAMAGE", "BOMBARDMENT 5"]
         },
         {
             "class":"Crusier",
@@ -52,6 +57,7 @@
             "unitsPerPurchase":1,
             "move":2,
             "combat": 7,
+            "combatDice": 1,
             "capacity": 0,
             "abilities":[]
         },
@@ -61,8 +67,39 @@
             "unitsPerPurchase":0,
             "move":0,
             "combat": 0,
+            "combatDice": 0,
             "capacity": 0,
             "abilities":["You cannot produce this unit unless you own it's unit upgrade technology"]
+        },
+        {
+            "class":"Flagship",
+            "cost":8,
+            "unitsPerPurchase":1,
+            "move":1,
+            "combat": 9,
+            "combatDice": 1,
+            "capacity": 3,
+            "abilities":["SUSTAIN DAMAGE","This is the base flagship chasis. Every race has their own distinct flavour with different improvements"]
+        },
+        {
+            "class":"PDS",
+            "cost":0,
+            "unitsPerPurchase":1,
+            "move":0,
+            "combat": 0,
+            "combatDice": 0,
+            "capacity": 0,
+            "abilities":["CONSTRUCTION", "PLANETARY SHIELD","SPACE CANNON 6"]
+        },
+        {
+            "class":"Space Dock",
+            "cost":0,
+            "unitsPerPurchase":1,
+            "move":0,
+            "combat": 0,
+            "combatDice": 0,
+            "capacity": 0,
+            "abilities":["CONSTRUCTION", "PRODUCTION X","This units PRODUCTION value is equal to 2 more than the resource value of this planet","Up to 3 fighters in this system do not count against your ships' capacity."]
         }
     ]
 }
