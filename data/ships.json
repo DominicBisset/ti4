@@ -72,16 +72,6 @@
             "abilities":["You cannot produce this unit unless you own it's unit upgrade technology"]
         },
         {
-            "class":"Flagship",
-            "cost":8,
-            "unitsPerPurchase":1,
-            "move":1,
-            "combat": 9,
-            "combatDice": 1,
-            "capacity": 3,
-            "abilities":["SUSTAIN DAMAGE","This is the base flagship chasis. Every race has their own distinct flavour with different improvements"]
-        },
-        {
             "class":"PDS",
             "cost":0,
             "unitsPerPurchase":1,
@@ -100,6 +90,31 @@
             "combatDice": 0,
             "capacity": 0,
             "abilities":["CONSTRUCTION", "PRODUCTION X","This units PRODUCTION value is equal to 2 more than the resource value of this planet","Up to 3 fighters in this system do not count against your ships' capacity."]
+        },
+        {
+            "class":"Flagship",
+            "cost":8,
+            "unitsPerPurchase":1,
+            "move":1,
+            "combat": 9,
+            "combatDice": 1,
+            "capacity": 3,
+            "abilities":["SUSTAIN DAMAGE","This is the base flagship chasis. Every race has their own distinct flavour with different improvements"]
+        },
+        {
+            "race":"Sol",
+            "class":"Flagship",
+            "name":"Genesis",
+            "cost":8,
+            "unitsPerPurchase":1,
+            "move":1,
+            "combat": 5,
+            "combatDice": 2,
+            "capacity": 12,
+            "abilities":["SUSTAIN DAMAGE","At the end of the status phase, place 1 infantry from your reinforcements in this system's space area."],
+            "prerequisites":{},
+            "provides":{},
+            "text":"Ship upgrade"
         }
     ]
 }
