@@ -1,4 +1,4 @@
-<div>
+<div class="tech">
     <h3>{tech.name}</h3>
     {#each tech.text.split("\n") as line}
         <p>{line}</p>
@@ -8,14 +8,25 @@
             <div class="prerequisite {prerequisite}">&nbsp;</div>
         {/each}
     {/each}
+    {#each Object.entries(tech.provides) as [provides, count]}
+        {#each range(count) as c}
+            <div class="provides {provides}">&nbsp;</div>
+        {/each}
+    {/each}
 </div>
 
 <style>
-    .prerequisite{
+    .tech{
+        background-color: lightgray;
+    }
+    .prerequisite, .provides{
         width: 30px;
         height:30px;
         border-radius: 15px;
         display: inline-block
+    }
+    .provides{
+        float: right;
     }
     .r{
         background-color: red
