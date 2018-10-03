@@ -3,9 +3,14 @@
     Here's a list of the game's techs for reference:
 </p>
 
+<label for="searchBox">Filter Techs:</label>
+<input name="searchBox" bind:value="search" />
+
 <div id="techlist">
-    {#each $techs as tech} 
-        <TechItem {tech}></TechItem>
+    {#each $techs.filter(filterFunction) as tech} 
+        <div transition:fade>
+            <TechItem {tech} ></TechItem>
+        </div>
     {/each}
 </div>
 
@@ -13,11 +18,42 @@
 <script>
     import TechItem from './TechItem.html';
     import store from './data/tech.store.js';
+    import { fade } from 'svelte-transitions';
     
     export default {
         store: () => store,
         components: {
             TechItem
+        },
+        data(){
+            return {search:''}
+        },
+        computed:{
+            filterFunction:({search})=> {
+                let s = search.toLowerCase();
+                return tech => tech.name.toLowerCase().indexOf(s) >= 0
+                    || tech.text.toLowerCase().indexOf(s) >= 0
+                    || (s.indexOf("warfare") >= 0 
+                        && (tech.prerequisites.r > 0
+                            || tech.provides.r > 0)
+                    )
+                    || (s.indexOf("biotic") >= 0 
+                        && (tech.prerequisites.g > 0
+                            || tech.provides.g > 0)
+                    )
+                    || (s.indexOf("propulsion") >= 0 
+                        && (tech.prerequisites.b > 0
+                            || tech.provides.b > 0)
+                    )
+                    || (s.indexOf("cybernetic") >= 0 
+                        && (tech.prerequisites.y > 0
+                            || tech.provides.y > 0)
+                    )
+                    ;
+            }
+        },
+        transitions:{
+            fade
         }
     }; 
     window.store =store;
