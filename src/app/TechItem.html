@@ -3,42 +3,39 @@
     {#each tech.text.split("\n") as line}
         <p>{line}</p>
     {/each}
-    {#each Object.entries(tech.prerequisites) as [prerequisite, count]}
-        {#each range(count) as c}
-            <svelte:component this="{icon(prerequisite)}" name="icon"></svelte:component>
+    <div class="techTypeContainer">
+        <div class="prerequisite">
+            {#each Object.entries(tech.prerequisites) as [prerequisite, count]}
+                {#each range(count) as c}
+                    <svelte:component this="{icon(prerequisite)}" name="icon"></svelte:component>
+                {/each}
+            {/each}
+        </div>
+        <div class="provides">
+        {#each Object.entries(tech.provides) as [provides, count]}
+            {#each range(count) as c}
+                <svelte:component this="{icon(provides)}" name="icon"></svelte:component>
+            {/each}
         {/each}
-    {/each}
-    {#each Object.entries(tech.provides) as [provides, count]}
-        {#each range(count) as c}
-            <div class="provides {provides}">&nbsp;</div>
-        {/each}
-    {/each}
+        </div>
+    </div>
 </div>
 
 <style>
     .tech{
-        background-color: lightgray;
+        border-color: grey;
+        border-top-width: 1px;
+        border-top-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        margin: 2em;
+        padding-bottom: 1em;
     }
-    .prerequisite, .provides{
-        width: 30px;
-        height:30px;
-        border-radius: 15px;
-        display: inline-block
-    }
-    .provides{
-        float: right;
-    }
-    .r{
-        background-color: red
-    }
-    .g{
-        background-color: green
-    }
-    .b{
-        background-color: blue
-    }
-    .y{
-        background-color: yellow
+    .techTypeContainer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
     }
 </style>
 
