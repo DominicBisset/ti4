@@ -18,7 +18,11 @@
             "type":"integer"
         },
         "combat":{
-            "description": "Minimum roll required on a d10 to cause damage in combat.",
+            "description": "Minimum roll required on a d10 to producte a hit in combat.",
+            "type":"integer"
+        },
+        "combatDice":{
+            "description": "Number of dice to roll for each ship of this class in combat.",
             "type":"integer"
         },
         "move":{
@@ -42,6 +46,7 @@
         "cost",
         "unitsPerPurchase",
         "combat",
+        "combatDice",
         "move",
         "capacity",
         "abilities"

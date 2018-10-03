@@ -9,14 +9,20 @@
             "description":"List of TI4 Techs",
             "type":"array",
             "items": {
-                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"
+                "oneOf":[
+                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"},
+                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"}
+                ]
             }
         },
         "ships":{
             "description":"List of TI4 Ships",
             "type":"array",
             "items": {
-                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.ship.json"
+                "oneOf":[
+                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.ship.json"},
+                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"}
+                ]
             }
         }
     }
