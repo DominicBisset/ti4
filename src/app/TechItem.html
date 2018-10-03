@@ -5,11 +5,7 @@
     {/each}
     {#each Object.entries(tech.prerequisites) as [prerequisite, count]}
         {#each range(count) as c}
-            {#if prerequisite==='r'}
-                <WarfareTechIcon></WarfareTechIcon>
-            {:else}
-                <div class="prerequisite {prerequisite}">&nbsp;</div>
-            {/if}
+            <svelte:component this="{icon(prerequisite)}" name="icon"></svelte:component>
         {/each}
     {/each}
     {#each Object.entries(tech.provides) as [provides, count]}
@@ -48,10 +44,10 @@
 
 <script>
     import WarfareTechIcon from "./WarfareTechIcon.html";
+    import BioticTechIcon from "./BioticTechIcon.html";
+    import PropulsionTechIcon from "./PropulsionTechIcon.html";
+    import CyberneticTechIcon from "./CyberneticTechIcon.html";
     export default{
-        components:{
-            WarfareTechIcon
-        },
         helpers:{
             range: function(max){
                 let output = []
@@ -61,6 +57,19 @@
                     c += 1;
                 }
                 return output;
+            },
+            icon: function(prerequisite){
+                switch(prerequisite){
+                    case 'r':
+                        return WarfareTechIcon;
+                    case 'g':
+                        return BioticTechIcon;
+                    case 'b':
+                        return PropulsionTechIcon;
+                    default:
+                        return CyberneticTechIcon;
+
+                } 
             }
         }
     }
