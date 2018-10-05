@@ -275,7 +275,7 @@
         {
             "name":"Production Biomes",
             "text":"ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods.",
-            "prerequisites":{"g":2,
+            "prerequisites":{"g":2},
             "provides":{"g":1},
             "race":"Hacan"
         }
