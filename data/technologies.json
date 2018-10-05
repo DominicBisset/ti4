@@ -208,6 +208,76 @@
             "prerequisites":{"b":2},
             "provides":{"b":1},
             "race":"Creuss"
+        },
+        {
+            "name":"Transparasteel Plating",
+            "text":"During your turn of the action phase, players that have passed cannot play action cards.",
+            "prerequisites":{"g":1},
+            "provides":{"g":1},
+            "race":"Yssaril"
+        },
+        {
+            "name":"Mageon Implants",
+            "text":"ACTION: Exhaust this card to look at another player's hand of action cards.  Choose 1 of those cards and add it to your hand.",
+            "prerequisites":{"g":3},
+            "provides":{"g":1},
+            "race":"Yssaril"
+        },
+        {
+            "name":"Bioplasmosis",
+            "text":"At the end of the status phase, you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems.",
+            "prerequisites":{"g":2},
+            "provides":{"g":1},
+            "race":"Arborec"
+        },
+        {
+            "name":"Impulse Core",
+            "text":"At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned by your opponent to 1 of his non-fighter ships if able.",
+            "prerequisites":{"y":2},
+            "provides":{"y":1},
+            "race":"Yin"
+        },
+        {
+            "name":"Yin Spinner",
+            "text":"After 1 or more of your units use PRODUCTION, place 1 infantry from your reinforcements on a planet that you control in that system.",
+            "prerequisites":{"g":2},
+            "provides":{"g":1},
+            "race":"Yin"
+        },
+        {
+            "name":"Inheritance Systems",
+            "text":"You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technologie's prerequisistes.",
+            "prerequisites":{"y":2},
+            "provides":{"y":1},
+            "race":"L1z1x"
+        },
+        {
+            "name":"Nullification Field",
+            "text":"After another player activates a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn.",
+            "prerequisites":{"y":2},
+            "provides":{"y":1},
+            "race":"Xxcha"
+        },
+        {
+            "name":"Instinct Training",
+            "text":"You may exhaust this card and spend 1 token from your strategy pool when another player plays and action card; cancel that action card.",
+            "prerequisites":{"y":1},
+            "provides":{"y":1},
+            "race":"Xxcha"
+        },
+        {
+            "name":"Quantum Datahub Node",
+            "text":"At the end of the strategy phase, you may spend 1 toke from your strategy pool and give another player 3 of your trade goods.  If you do, give 1 of your strategy cards to that player and take 1 of his strategy cards.",
+            "prerequisites":{"y":3},
+            "provides":{"y":1},
+            "race":"Hacan"
+        },
+        {
+            "name":"Production Biomes",
+            "text":"ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods.",
+            "prerequisites":{"g":2,
+            "provides":{"g":1},
+            "race":"Hacan"
         }
     ]
 }
