@@ -1,0 +1,52 @@
+{
+    "$schema": "https://ti4.dominicbisset.co.uk/data/schema.json",
+    "races":[
+        {
+            "name":"Sol",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Orbital Drop",
+                    "text":"ACTION:Spend 1 token from your strategy pool to place 2 infantry from your reinfrocements on 1 planet you control."
+                },
+                {
+                    "name":"Versatile",
+                    "text":"When you gain command tokens during the status phase gain 1 additional token."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Antimass Deflectors",
+                    "Genesis",
+                    "Sepc Ops 1",
+                    "Advanced Carrier 1"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighters",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":1
+            }
+        }
+    ]
+}

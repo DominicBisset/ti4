@@ -1,0 +1,20 @@
+{
+    "$schema": "https://ti4.dominicbisset.co.uk/data/schema.json",
+    "systems":[
+        {
+            "id": 1,
+            "planets":[
+                {
+                    "name":"Jord",
+                    "trait":"Home",
+                    "race":"Sol",
+                    "resources":4,
+                    "influence":2,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        }
+    ]
+}

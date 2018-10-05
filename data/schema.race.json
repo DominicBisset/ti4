@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://ti4.dominicbisset.co.uk/data/schema.race.json",
+    "title": "TI4 JSON Races",
+    "description": "Schema for representing TI4 races",
+    "type":"object",
+    "properties":{
+        "name":{
+            "description":"Name of race",
+            "$ref":"https://ti4.dominicbisset.co.uk/data/schema.raceName.json"
+        },
+        "description":{
+            "description":"Brief overview of races history and focus.",
+            "type":"string"
+        },
+        "abilities":{
+            "description": "Special abilities that this race has as standard",
+            "type":"array",
+            "items":{
+                "type":"string"
+            }
+        },
+        "commodities":{
+            "description": "Number of commodities replenished each turn",
+            "type":"integer"
+        },
+        "starting":{
+            "type":"object",
+            "properties": {
+                "techs":{
+                    "type":"array",
+                    "items": {
+                        "description": "Starting technologies and ship upgrades for race.",
+                        "type":"string"
+                    }
+                },
+                "units":{
+                    "type":"array",
+                    "items": {
+                        "type":"string"
+                    }
+                },
+                "sector":{
+                    "type":"integer"
+                }
+            },
+            "required":[
+                "techs",
+                "units",
+                "sector"
+            ]
+        }
+    },
+    "required": [
+        "name",
+        "description",
+        "abilities",
+        "commodities",
+        "start"
+    ]
+}

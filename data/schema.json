@@ -44,6 +44,20 @@
                     }
                 ]
             }
+        },
+        "systems":{
+            "description":"List of TI4 Systems",
+            "type":"array",
+            "items": {
+                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.system.json"
+            }
+        },
+        "races":{
+            "description":"List of TI4 Races",
+            "type":"array",
+            "items": {
+                "$ref":"https://ti4.dominicbisset.co.uk/data/schema.race.json"
+            }
         }
     }
 }

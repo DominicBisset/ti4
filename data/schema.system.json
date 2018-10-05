@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://ti4.dominicbisset.co.uk/data/schema.system.json",
+    "title": "TI4 JSON Systems",
+    "description": "Schema for representing TI4 systems",
+    "type":"object",
+    "properties":{
+        "id":{
+            "description":"Id of Hex",
+            "type":"integer"
+        },
+        "planets":{
+            "description": "List of planets in system",
+            "type":"array",
+            "items":{
+                "$ref": "https://ti4.dominicbisset.co.uk/data/schema.planet.json"
+            }
+        },
+        "anomoly":{
+            "description": "Type of anomoly in this system",
+            "enum": [
+                "None",
+                "Asteroid Field",
+                "Nebula",
+                "Supernova",
+                "Gravity Rift"
+            ]
+        },
+        "wormholes":{
+            "description": "Wormhole in sector",
+            "type": "array",
+            "items":{
+                "enum": [
+                  "Alpha",
+                  "Beta",
+                  "Delta"  
+                ]
+            }
+        }
+    },
+    "required": [
+        "id",
+        "planets",
+        "anomoly",
+        "wormholes"
+    ]
+}
