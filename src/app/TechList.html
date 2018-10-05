@@ -7,7 +7,7 @@
 <input name="searchBox" bind:value="search" />
 
 <div id="techlist">
-    {#each $techs.filter(filterFunction) as tech} 
+    {#each sortTechs($techs.filter(filterFunction)) as tech} 
         <div in:fade="{duration:500, delay:250}" out:fade="{duration:200}">
             <TechItem {tech} ></TechItem>
         </div>
@@ -27,6 +27,11 @@
         },
         data(){
             return {search:''}
+        },
+        helpers:{
+            sortTechs(techs){
+                return techs.sort((t1,t2) => t1.prerequisiteCount - t2.prerequisiteCount);
+            }
         },
         computed:{
             filterFunction:({search})=> {
