@@ -74,7 +74,7 @@
             "provides":{"y":1}
         },
         {
-            "name":"Sarween Tools",
+            "name":"Assault Cannon",
             "text":"At the start of a space combat in a system that contains 3 or more of your non-fighter ships, your opponent must destroy 1 of his non-fighter ships.",
             "prerequisites":{"r":3},
             "provides":{"r":1}
