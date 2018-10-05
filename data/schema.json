@@ -10,8 +10,18 @@
             "type":"array",
             "items": {
                 "oneOf":[
-                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"},
-                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"}
+                    {
+                        "properties": {
+                            "type":{"const":"Tech"}
+                        },
+                        "$ref":"https://ti4.dominicbisset.co.uk/data/schema.tech.json"
+                    },
+                    {
+                        "properties": {
+                            "type":{"const":"ShipUpgrade"}
+                        },
+                        "$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"
+                    }
                 ]
             }
         },
