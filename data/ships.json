@@ -102,6 +102,7 @@
             "abilities":["SUSTAIN DAMAGE","This is the base flagship chasis. Every race has their own distinct flavour with different improvements"]
         },
         {
+            "type":"ShipUpgrade",
             "race":"Sol",
             "class":"Flagship",
             "name":"Genesis",

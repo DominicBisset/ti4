@@ -30,8 +30,18 @@
             "type":"array",
             "items": {
                 "oneOf":[
-                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.ship.json"},
-                    {"$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"}
+                    {
+                        "properties": {
+                            "type":{"const":"Ship"}
+                        },
+                        "$ref":"https://ti4.dominicbisset.co.uk/data/schema.ship.json"
+                    },
+                    {
+                        "properties": {
+                            "type":{"const":"ShipUpgrade"}
+                        },
+                        "$ref":"https://ti4.dominicbisset.co.uk/data/schema.shipUpgrade.json"
+                    }
                 ]
             }
         }
