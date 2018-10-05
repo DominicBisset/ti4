@@ -1,5 +1,5 @@
 <div class="tech">
-    <h3>{tech.name}</h3>
+    <h3>{tech.name}{#if tech.race}<small> - {tech.race}</small>{/if}</h3>
     {#each tech.text.split("\n") as line}
         <p>{line}</p>
     {/each}
@@ -36,6 +36,9 @@
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
+    }
+    small{
+        color:grey;
     }
 </style>
 
