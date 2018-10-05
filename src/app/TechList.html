@@ -33,6 +33,7 @@
                 let s = search.toLowerCase();
                 return tech => tech.name.toLowerCase().indexOf(s) >= 0
                     || tech.text.toLowerCase().indexOf(s) >= 0
+                    || (tech.race && tech.race.toLowerCase().indexOf(s) >= 0)
                     || (s.indexOf("warfare") >= 0 
                         && (tech.prerequisites.r > 0
                             || tech.provides.r > 0)
