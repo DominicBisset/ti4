@@ -445,6 +445,198 @@
                 ],
                 "sector":3
             }
+        },
+        {
+            "name":"Muaat",
+            "fullName": "The Embers of Muaat",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Start Forge",
+                    "text":"ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your War Suns."
+                },
+                {
+                    "name":"Gashlai Physiology",
+                    "text":"Your ships can move through supernovas."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Plasma Scoring",
+                    "Prototype War Sun 1",
+                    "The Inferno"
+                ],
+                "units":[
+                    {
+                        "class":"War Sun",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":4
+            }
+        },
+        {
+            "name":"N'Orr",
+            "fullName": "Sardakk N'Orr",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Unrelenting",
+                    "text":"Apply +1 to the result of each of your units combat rolls."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Exotrireme 1",
+                    "C'Morran N'Orr"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":13
+            }
+        },
+        {
+            "name":"Jol-Nar",
+            "fullName": "The Universities of Jol-Nar",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Fragile",
+                    "text":"Apply -1 to the result of each of your units combat rolls."
+                },
+                {
+                    "name":"Brilliant",
+                    "text":"When you spend a command token to resolve the secondary ability of the \"Technology\" strategy card, you may resolve the primary ability instead."
+                },
+                {
+                    "name":"Analytical",
+                    "text":"When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Antimass Deflectors",
+                    "Sarween Tools",
+                    "Plasma Scoring",
+                    "J.N.S. Hylarim"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 2
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 2
+                    }
+                ],
+                "sector":12
+            }
+        },
+        {
+            "name":"Yssaril",
+            "fullName": "The Yssaril Tribes",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Stall Tactics",
+                    "text":"ACTION: Discard 1 action card from your hand."
+                },
+                {
+                    "name":"Scheming",
+                    "text":"When you draw 1 or more action cards, draw 1 additional card.  Then, choose and discard 1 action card from your hand."
+                },
+                {
+                    "name":"Crafty",
+                    "text":"You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Y'Sia Y'Ssrila"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":15
+            }
         }
     ]
 }

@@ -47,6 +47,22 @@
             "wormholes":[]
         },
         {
+            "id": 4,
+            "planets": [
+                {
+                    "name": "Muaat",
+                    "trait": "Home",
+                    "race": "Muaat",
+                    "resources":4,
+                    "influence":1,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        
+        },
+        {
             "id": 5,
             "planets":[
                 {
@@ -100,6 +116,75 @@
                     "race":"Nekro",
                     "resources":4,
                     "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 12,
+            "planets":[
+                {
+                    "name":"Nar",
+                    "trait":"Home",
+                    "race":"Jol-Nar",
+                    "resources":2,
+                    "influence":3,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Jol",
+                    "trait":"Home",
+                    "race":"Jol-Nar",
+                    "resources":1,
+                    "influence":2,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 13,
+            "planets":[
+                {
+                    "name":"Quninarra",
+                    "trait":"Home",
+                    "race":"N'Orr",
+                    "resources":3,
+                    "influence":1,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Tren'lak",
+                    "trait":"Home",
+                    "race":"N'Orr",
+                    "resources":1,
+                    "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 15,
+            "planets":[
+                {
+                    "name":"Retillion",
+                    "trait":"Home",
+                    "race":"Yssaril",
+                    "resources":2,
+                    "influence":3,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Shalloq",
+                    "trait":"Home",
+                    "race":"N'Orr",
+                    "resources":1,
+                    "influence":2,
                     "techSpeciality":"None"
                 }
             ],
