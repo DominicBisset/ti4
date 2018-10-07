@@ -28,7 +28,7 @@
                 },
                 "required":[
                     "name",
-                    "type"
+                    "text"
                 ]
             }
         },
