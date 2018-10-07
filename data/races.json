@@ -3,6 +3,7 @@
     "races":[
         {
             "name":"Sol",
+            "fullName": "The Federation of Sol",
             "description":"",
             "abilities":[
                 {
@@ -20,8 +21,9 @@
                     "Neural Motivator",
                     "Antimass Deflectors",
                     "Genesis",
-                    "Sepc Ops 1",
-                    "Advanced Carrier 1"
+                    "Spec Ops 1",
+                    "Advanced Carrier 1",
+                    "Genesis"
                 ],
                 "units":[
                     {
@@ -33,7 +35,7 @@
                         "count": 1
                     },
                     {
-                        "class":"Fighters",
+                        "class":"Fighter",
                         "count": 3
                     },
                     {
@@ -46,6 +48,207 @@
                     }
                 ],
                 "sector":1
+            }
+        },
+        {
+            "name":"Nekro",
+            "fullName": "The Nekro Virus",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Galactic Threat",
+                    "text":"You cannot vote on agendas. Once per agenda phase, after an agenda is revealed, you may predict the outcome of that agenda.  If your prediction is correct, gain 1 technology that is owned by a player who voted how you predicted."
+                },
+                {
+                    "name":"Technological Singularity",
+                    "text":"Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player."
+                },
+                {
+                    "name": "Propagation",
+                    "text": "You cannot research technology.  When you would research a technology, gain 3 command tokens instead."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Daxcive Animators",
+                    "Valefar Assimilator X",
+                    "Valefar Assimilator Y",
+                    "The Alastor"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 2
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":8
+            }
+        },
+        {
+            "name":"Creuss",
+            "fullName": "The Ghosts of Creuss",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Quantum Entanglement",
+                    "text":"You treat all systems that contain either an alpha of beta wormhole as adjacent to each other.  Game effects cannot prevent you from using this ability."
+                },
+                {
+                    "name":"Slipstream",
+                    "text":"During your tactical action, apply +1 to the move value of each of your ships that starts its movement in your home system or in a system that contains either an alpha or beta wormhole."
+                },
+                {
+                    "name": "Creuss Gate",
+                    "text": "When you create the game board, place the Creuss Gate (tile 17) where your home system would normally be placed.  the Creuss Gate system is not a home system.  Then place your home system (tile 51) in your play area."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Gravity Drive",
+                    "Hil Colish"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 2
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":51
+            }
+        },
+        {
+            "name":"Arborec",
+            "fullName": "The Arborec",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Mitosis",
+                    "text":"Your space docks cannot produce infantry.  At the start of the status phase, place 1 infantry from your reinforcements on any planet you control."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Magen Defense Grid",
+                    "Letani Warrior 1",
+                    "Duha Menaimon"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":5
+            }
+        },
+        {
+            "name":"Mentak",
+            "fullName": "The Mentak Coalition",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Ambush",
+                    "text":"At the start of a space combat, you may roll 1 die for each of up to 2 of your cruisers or destroyers in the system.  For each result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of his ships."
+                },
+                {
+                    "name": "Pillage",
+                    "text":"After 1 of your neighbors gains trade goods or resolves a transaction, if he has 3 or more trade goods, you may take 1 of his trade goods or commodities."
+
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Sarween Tools",
+                    "Plasma Scoring",
+                    "Fourth Moon"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 2
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":2
             }
         }
     ]

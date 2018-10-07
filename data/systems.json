@@ -15,6 +15,73 @@
             ],
             "anomoly":"None",
             "wormholes":[]
+        },
+        {
+            "id": 2,
+            "planets":[
+                {
+                    "name":"Moll Primus",
+                    "trait":"Home",
+                    "race":"Mentak",
+                    "resources":4,
+                    "influence":1,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 5,
+            "planets":[
+                {
+                    "name":"Nestphar",
+                    "trait":"Home",
+                    "race":"Arborec",
+                    "resources":3,
+                    "influence":2,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 8,
+            "planets":[
+                {
+                    "name":"Mordai II",
+                    "trait":"Home",
+                    "race":"Nekro",
+                    "resources":4,
+                    "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 17,
+            "planets":[
+            ],
+            "anomoly":"None",
+            "wormholes":["Delta"]
+        },
+        {
+            "id": 51,
+            "planets":[
+                {
+                    "name":"Creuss",
+                    "trait":"Home",
+                    "race":"Creuss",
+                    "resources":4,
+                    "influence":2,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":["Delta"]
         }
     ]
 }
