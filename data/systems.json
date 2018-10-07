@@ -123,6 +123,75 @@
             "wormholes":[]
         },
         {
+            "id": 9,
+            "planets":[
+                {
+                    "name":"Druaa",
+                    "trait":"Home",
+                    "race":"Naalu",
+                    "resources":3,
+                    "influence":1,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Maaluuk",
+                    "trait":"Home",
+                    "race":"Naalu",
+                    "resources":0,
+                    "influence":2,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 10,
+            "planets":[
+                {
+                    "name":"Arc Prime",
+                    "trait":"Home",
+                    "race":"Letnev",
+                    "resources":4,
+                    "influence":0,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Wren Terra",
+                    "trait":"Home",
+                    "race":"Letnev",
+                    "resources":2,
+                    "influence":1,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 11,
+            "planets":[
+                {
+                    "name":"Ragh",
+                    "trait":"Home",
+                    "race":"Saar",
+                    "resources":2,
+                    "influence":1,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Lisis II",
+                    "trait":"Home",
+                    "race":"Saar",
+                    "resources":1,
+                    "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
             "id": 12,
             "planets":[
                 {
@@ -162,6 +231,29 @@
                     "race":"N'Orr",
                     "resources":1,
                     "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 14,
+            "planets":[
+                {
+                    "name":"Archon Ren",
+                    "trait":"Home",
+                    "race":"Xxcha",
+                    "resources":3,
+                    "influence":2,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Archon Tau",
+                    "trait":"Home",
+                    "race":"Xxcha",
+                    "resources":1,
+                    "influence":1,
                     "techSpeciality":"None"
                 }
             ],

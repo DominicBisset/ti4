@@ -637,6 +637,206 @@
                 ],
                 "sector":15
             }
+        },
+        {
+            "name":"Letnev",
+            "fullName": "The Barony of Letnev",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Munitions Reserves",
+                    "text":"At the start of each round of space combat, you may spend 2 trade goods; you may reroll any number of your dice during that combat round."
+                },
+                {
+                    "name":"Armada",
+                    "text":"The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Plasma Scoring",
+                    "Arc Secundus"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 3
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":10
+            }
+        },
+        {
+            "name":"Naalu",
+            "fullName": "The Naalu Collective",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Telepathic",
+                    "text":"At the end of the strategy phase, place the Naalu \"0\" token on your strategy card.  You are first in the initiative order."
+                },
+                {
+                    "name":"Foresight",
+                    "text":"After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships; move your ships from the active system into that system."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Sarween Tools",
+                    "Hybrid Crystal Fighter 1",
+                    "Matriarch"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":9
+            }
+        },
+        {
+            "name":"Saar",
+            "fullName": "The Clan of Saar",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Scavenge",
+                    "text":"After you gain control of a planet, gain 1 trade good."
+                },
+                {
+                    "name":"Nomadic",
+                    "text":"You can score objectives even if you do not control the planets in your home system."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Floating Factory 1",
+                    "Son of Ragh"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":11
+            }
+        },
+        {
+            "name":"Xxcha",
+            "fullName": "The Xxcha Kingdom",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Peace Accords",
+                    "text":"AFter you resolve the primary or secondary ability of the \"Deplomacy\" strategy card you may gain control of 1 planet other than Mecatol Rex that does not contain any units and is in a system that is adjacent to a planet you control."
+                },
+                {
+                    "name":"Quash",
+                    "text":"When an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Graviton Laser System",
+                    "Loncara Ssodu"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 2
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":14
+            }
         }
     ]
 }
