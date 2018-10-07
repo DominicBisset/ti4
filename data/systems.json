@@ -32,6 +32,21 @@
             "wormholes":[]
         },
         {
+            "id": 3,
+            "planets":[
+                {
+                    "name":"Darien",
+                    "trait":"Home",
+                    "race":"Yin",
+                    "resources":4,
+                    "influence":4,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
             "id": 5,
             "planets":[
                 {
@@ -47,6 +62,36 @@
             "wormholes":[]
         },
         {
+            "id": 6,
+            "planets":[
+                {
+                    "name":"[0.0.0]",
+                    "trait":"Home",
+                    "race":"L1z1x",
+                    "resources":5,
+                    "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 7,
+            "planets":[
+                {
+                    "name":"Winnu",
+                    "trait":"Home",
+                    "race":"Winnu",
+                    "resources":3,
+                    "influence":4,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
             "id": 8,
             "planets":[
                 {
@@ -55,6 +100,37 @@
                     "race":"Nekro",
                     "resources":4,
                     "influence":0,
+                    "techSpeciality":"None"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[]
+        },
+        {
+            "id": 16,
+            "planets":[
+                {
+                    "name":"Arretze",
+                    "trait":"Home",
+                    "race":"Hacan",
+                    "resources":2,
+                    "influence":0,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Hercant",
+                    "trait":"Home",
+                    "race":"Hacan",
+                    "resources":1,
+                    "influence":1,
+                    "techSpeciality":"None"
+                },
+                {
+                    "name":"Kamdorn",
+                    "trait":"Home",
+                    "race":"Hacan",
+                    "resources":0,
+                    "influence":1,
                     "techSpeciality":"None"
                 }
             ],

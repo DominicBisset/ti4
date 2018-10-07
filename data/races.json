@@ -250,6 +250,201 @@
                 ],
                 "sector":2
             }
+        },
+        {
+            "name":"Winnu",
+            "fullName": "The Winnu",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Blood Ties",
+                    "text":"You do not have to spend influence to remove the custodians token from Mecatol Rex."
+                },
+                {
+                    "name": "Reclamation",
+                    "text":"After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "[Any 1 Technology with no prerequisites]",
+                    "Salai Sai Corian"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 2
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":7
+            }
+        },
+        {
+            "name":"Hacan",
+            "fullName": "The Emirates of Hacan",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Masters of Trade",
+                    "text":"You do not have to spend a command token to resolve the secondary ability of the \"Trade\" strategy card."
+                },
+                {
+                    "name":"Guild Ships",
+                    "text":"You can negotiate transactions with players who are not your neighbor."
+                },
+                {
+                    "name":"Arbiters",
+                    "text":"When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
+                }
+            ],
+            "commodities":6,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Sarween Tools",
+                    "Wrath of Kenara"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":16
+            }
+        },
+        {
+            "name":"L1z1x",
+            "fullName": "The L1z1x Mindnet",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Assimilate",
+                    "text":"When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements."
+                },
+                {
+                    "name":"Harrow",
+                    "text":"After each round of ground combat, your ships in the active system may use their BOMBARDMENT abilities against your opponent's ground forces on the planet."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Plasma Scoring",
+                    "Super-Dreadnought",
+                    "[0.0.1]"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":6
+            }
+        },
+        {
+            "name":"Yin",
+            "fullName": "The Yin Brotherhood",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Indoctrination",
+                    "text":"At the start of a ground combat, you may spend 2 influence to replace 1 of your opponenet's participating infantry with 1 infantry from your reinforcements."
+                },
+                {
+                    "name":"Devotion",
+                    "text":"After each space battle round, you may destroy 1 of your cruisers or destroyers to produce 1 hit and assign it to one of your opponenet's ships."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Sarween Tools",
+                    "Van Hauge"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 4
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":3
+            }
         }
     ]
 }
