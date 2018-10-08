@@ -22,7 +22,7 @@ This will serve the site on `localhost:5000`
 
 Note that
 * the build step is required at least once as it creates the public folder and copies static files from the `data` directory plus the `*.html` and `global.css` files in the `src` directory. 
-** you'll need to stop the server and rebuild the full site if you ever change that static content
+  * you'll need to stop the server and rebuild the full site if you ever change that static content
 * the data json files are hard coded with references to my domain.  One day I might fix this.
 
 ## Hosting 
