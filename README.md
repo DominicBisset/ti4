@@ -1,70 +1,33 @@
-*Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# TI4 - Home Page for Twilight Imperium Game Nights
 
----
+Site built with [svelte](https://svelte.technology/).
 
-# svelte app
+`index.html` is a static event page that sends form responses back to [netlify](https://www.netlify.com/).
 
-This is a project template for [Svelte](https://svelte.technology) apps. It lives at https://github.com/sveltejs/template.
+The dynamic site is located at `.\app` and is currently a work in progress.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+Netlify is set up with the master branch being served at ti4.dominicbisset.co.uk and other branches running as subdomains off that main subdomain.
 
-```bash
-npm install -g degit # you only need to do this once
+## Build and run locally
 
-degit sveltejs/template svelte-app
-cd svelte-app
+Clone the repo, then run the following commands in the project root folder.
+
 ```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
 npm install
+npm run-script build
+npm run-script dev
 ```
 
-...then start [Rollup](https://rollupjs.org):
+This will serve the site on `localhost:5000`
 
-```bash
-npm run dev
+Note that
+* the build step is required at least once as it creates the public folder and copies static files from the `data` directory plus the `*.html` and `global.css` files in the `src` directory. 
+** you'll need to stop the server and rebuild the full site if you ever change that static content
+* the data json files are hard coded with references to my domain.  One day I might fix this.
+
+## Hosting 
 ```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
+npm install
+npm run-script build
 ```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+Then serve the `public` folder
