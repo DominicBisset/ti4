@@ -25,6 +25,8 @@ export default {
 			// opt in to v3 behaviour today
 			skipIntroByDefault: true,
 			nestedTransitions: true,
+			
+			generate: 'ssr',
 
 			// enable run-time checks when not in production
 			dev: !production,
