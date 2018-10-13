@@ -1,0 +1,12 @@
+<div id="system">
+    <h3>System Id {system.id}</h3>
+    {#each system.planets as planet}
+        <div>
+            <h4>{planet.name}</h4>
+            <p>{planet.trait} Planet</p>
+            <p>{planet.resources} Resources</p>
+            <p>{planet.influence} Influence</p>
+            <p>Tech Speciality:{planet.techSpeciality}</p>
+        </div>
+    {/each}
+</div>

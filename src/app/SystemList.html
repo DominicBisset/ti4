@@ -1,0 +1,32 @@
+<div id="systemlist">
+    {#each $systems.filter(filterFunction) as system} 
+        <div in:fade="{duration:500, delay:250}" out:fade="{duration:200}">
+            <System {system} ></System>
+        </div>
+    {/each}
+</div>
+
+
+<script>
+    import System from './System.html';
+    import store from './data/system.store.js';
+    import { fade } from 'svelte-transitions';
+    
+    export default {
+        store: () => store,
+        components: {
+            System
+        },
+        data(){
+            return {search:{}}
+        },
+        computed:{
+            filterFunction:({search})=> {
+                return system => ((search.id && system.id === search.id));
+            }
+        },
+        transitions:{
+            fade
+        }
+    }; 
+</script>
