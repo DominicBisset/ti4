@@ -1,11 +1,3 @@
-<h2>Techs</h2>
-<p>
-    Here's a list of the game's techs for reference:
-</p>
-
-<label for="searchBox">Filter Techs:</label>
-<input name="searchBox" bind:value="search" />
-
 <div id="techlist">
     {#each sortTechs($techs.filter(filterFunction)) as tech} 
         <div in:fade="{duration:500, delay:250}" out:fade="{duration:200}">
@@ -62,5 +54,4 @@
             fade
         }
     }; 
-    window.store =store;
 </script>

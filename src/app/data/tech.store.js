@@ -17,4 +17,5 @@ class TechStore extends Store{
 }
 let store = new TechStore({techs:[]});
 store.loadTechs();
+window['store_techs'];
 export default store;

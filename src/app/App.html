@@ -1,10 +1,35 @@
-<TechList></TechList>
 
+<Main></Main>
 <script>
-    import TechList from './TechList.html';
+    // import TechList from './TechList.html';
+    import Main from './Main.html';
+
     export default{
-        components: {
-            TechList
+        components:{
+            Main
         }
+        // data(){
+        //     return{
+        //         url:'/app',
+	    //         target: document.body
+        //     }
+        // },
+        // methods: {
+		// 	navigate(event) {
+		// 		event.preventDefault();
+		// 		this.set({ url: event.target.pathname });
+        //     }
+        // },
+        // computed: {
+
+        //     pageContent({url}){
+        //         if(url.startsWith('/app')){
+        //             return TechList;
+        //             // return Main;
+        //         }
+        //         else if(url.startsWith('/tech')){
+        //         }
+        //     }
+        // }
     }
 </script>

@@ -1,0 +1,37 @@
+<label for="searchBox">Filter Races:</label>
+<input name="searchBox" bind:value="search" />
+
+<div id="racelist">
+    {#each $races.filter(filterFunction) as race} 
+        <div in:fade="{duration:500, delay:250}" out:fade="{duration:200}">
+            <RaceDetails {race}></RaceDetails>
+        </div>
+    {/each}
+</div>
+
+
+<script>
+    import store from './data/race.store.js';
+    import RaceDetails from './RaceDetails.html';
+    import { fade } from 'svelte-transitions';
+    
+    export default {
+        store: () => store,
+        components: {
+            RaceDetails
+        },
+        data(){
+            return {search:''}
+        },
+        computed:{
+            filterFunction:({search})=> {
+                let s = search.toLowerCase();
+                return race => race.fullName.toLowerCase().indexOf(s) >= 0
+                    ;
+            }
+        },
+        transitions:{
+            fade
+        }
+    };
+</script>

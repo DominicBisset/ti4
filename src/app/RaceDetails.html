@@ -1,0 +1,22 @@
+<h2>{race.fullName}</h2>
+<div id="abilityList">
+    {#each race.abilities as ability}
+        <h3>{ability.name}</h3>
+        <p>{ability.text}</p>
+    {/each}
+</div>
+<TechList search="{race.name}"></TechList>
+<div id="startingSystem">
+    <SystemList search="{{id:race.starting.sector}}"></SystemList>
+</div>
+
+<script>
+    import TechList from "./TechList.html";
+    import SystemList from "./SystemList.html";
+    export default {
+        components:{
+            TechList,
+            SystemList
+        }
+    }
+</script>
