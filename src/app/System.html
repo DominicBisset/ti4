@@ -1,12 +1,28 @@
 <div id="system">
     <h3>System Id {system.id}</h3>
-    {#each system.planets as planet}
-        <div>
-            <h4>{planet.name}</h4>
-            <p>{planet.trait} Planet</p>
-            <p>{planet.resources} Resources</p>
-            <p>{planet.influence} Influence</p>
-            <p>Tech Speciality:{planet.techSpeciality}</p>
-        </div>
-    {/each}
+    {#if system.planets.length > 0}
+        <p>Planets:</p>
+        {#each system.planets as planet}
+            <div>
+                <h4>{planet.name}</h4>
+                <p>{planet.trait} Planet</p>
+                <p>{planet.resources} Resources</p>
+                <p>{planet.influence} Influence</p>
+                <p>Tech Speciality: {planet.techSpeciality}</p>
+            </div>
+        {/each}
+    {/if}
+    
+    {#if system.wormholes.length > 0}
+        <p>Wormholes:</p>
+        <ul>
+            {#each system.wormholes as wormhole}
+                <li>{wormhole}</li>
+            {/each}
+        </ul>
+    {/if}
+
+    {#if system.anomoly !== "None"}
+        <p>Anomoly: {system.anomoly}</p>
+    {/if}
 </div>
