@@ -36,6 +36,15 @@
                   "Delta"  
                 ]
             }
+        },
+        "class":{
+            "description":"Type of system.  Corresponds to the red/green/blue backs of the system hexes.",
+            "enum": [
+                "Home",
+                "Galactic Centre",
+                "Habitable",
+                "Uninhabitable"
+            ]
         }
     },
     "required": [

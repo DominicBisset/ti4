@@ -250,6 +250,593 @@
                 ],
                 "sector":2
             }
+        },
+        {
+            "name":"Winnu",
+            "fullName": "The Winnu",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Blood Ties",
+                    "text":"You do not have to spend influence to remove the custodians token from Mecatol Rex."
+                },
+                {
+                    "name": "Reclamation",
+                    "text":"After you resolve a tactical action during which you gained control of Mecatol Rex, you may place 1 PDS and 1 space dock from your reinforcements on Mecatol Rex."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "[Any 1 Technology with no prerequisites]",
+                    "Salai Sai Corian"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 2
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":7
+            }
+        },
+        {
+            "name":"Hacan",
+            "fullName": "The Emirates of Hacan",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Masters of Trade",
+                    "text":"You do not have to spend a command token to resolve the secondary ability of the \"Trade\" strategy card."
+                },
+                {
+                    "name":"Guild Ships",
+                    "text":"You can negotiate transactions with players who are not your neighbor."
+                },
+                {
+                    "name":"Arbiters",
+                    "text":"When you are negotiating a transaction, action cards can be exchanged as part of that transaction."
+                }
+            ],
+            "commodities":6,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Sarween Tools",
+                    "Wrath of Kenara"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":16
+            }
+        },
+        {
+            "name":"L1z1x",
+            "fullName": "The L1z1x Mindnet",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Assimilate",
+                    "text":"When you gain control of a planet, replace each PDS and space dock that is on that planet with a matching unit from your reinforcements."
+                },
+                {
+                    "name":"Harrow",
+                    "text":"After each round of ground combat, your ships in the active system may use their BOMBARDMENT abilities against your opponent's ground forces on the planet."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Plasma Scoring",
+                    "Super-Dreadnought",
+                    "[0.0.1]"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":6
+            }
+        },
+        {
+            "name":"Yin",
+            "fullName": "The Yin Brotherhood",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Indoctrination",
+                    "text":"At the start of a ground combat, you may spend 2 influence to replace 1 of your opponenet's participating infantry with 1 infantry from your reinforcements."
+                },
+                {
+                    "name":"Devotion",
+                    "text":"After each space battle round, you may destroy 1 of your cruisers or destroyers to produce 1 hit and assign it to one of your opponenet's ships."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Sarween Tools",
+                    "Van Hauge"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 4
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":3
+            }
+        },
+        {
+            "name":"Muaat",
+            "fullName": "The Embers of Muaat",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Start Forge",
+                    "text":"ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your War Suns."
+                },
+                {
+                    "name":"Gashlai Physiology",
+                    "text":"Your ships can move through supernovas."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Plasma Scoring",
+                    "Prototype War Sun 1",
+                    "The Inferno"
+                ],
+                "units":[
+                    {
+                        "class":"War Sun",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":4
+            }
+        },
+        {
+            "name":"N'Orr",
+            "fullName": "Sardakk N'Orr",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Unrelenting",
+                    "text":"Apply +1 to the result of each of your units combat rolls."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Exotrireme 1",
+                    "C'Morran N'Orr"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":13
+            }
+        },
+        {
+            "name":"Jol-Nar",
+            "fullName": "The Universities of Jol-Nar",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Fragile",
+                    "text":"Apply -1 to the result of each of your units combat rolls."
+                },
+                {
+                    "name":"Brilliant",
+                    "text":"When you spend a command token to resolve the secondary ability of the \"Technology\" strategy card, you may resolve the primary ability instead."
+                },
+                {
+                    "name":"Analytical",
+                    "text":"When you research a technology that is not a unit upgrade technology, you may ignore 1 prerequisite."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Antimass Deflectors",
+                    "Sarween Tools",
+                    "Plasma Scoring",
+                    "J.N.S. Hylarim"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 2
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 2
+                    }
+                ],
+                "sector":12
+            }
+        },
+        {
+            "name":"Yssaril",
+            "fullName": "The Yssaril Tribes",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Stall Tactics",
+                    "text":"ACTION: Discard 1 action card from your hand."
+                },
+                {
+                    "name":"Scheming",
+                    "text":"When you draw 1 or more action cards, draw 1 additional card.  Then, choose and discard 1 action card from your hand."
+                },
+                {
+                    "name":"Crafty",
+                    "text":"You can have any number of action cards in your hand.  Game effects cannot prevent you from using this ability."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Y'Sia Y'Ssrila"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 5
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":15
+            }
+        },
+        {
+            "name":"Letnev",
+            "fullName": "The Barony of Letnev",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Munitions Reserves",
+                    "text":"At the start of each round of space combat, you may spend 2 trade goods; you may reroll any number of your dice during that combat round."
+                },
+                {
+                    "name":"Armada",
+                    "text":"The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool."
+                }
+            ],
+            "commodities":2,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Plasma Scoring",
+                    "Arc Secundus"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Dreadnought",
+                        "count": 1
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 1
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 3
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":10
+            }
+        },
+        {
+            "name":"Naalu",
+            "fullName": "The Naalu Collective",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Telepathic",
+                    "text":"At the end of the strategy phase, place the Naalu \"0\" token on your strategy card.  You are first in the initiative order."
+                },
+                {
+                    "name":"Foresight",
+                    "text":"After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships; move your ships from the active system into that system."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Neural Motivator",
+                    "Sarween Tools",
+                    "Hybrid Crystal Fighter 1",
+                    "Matriarch"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Destroyer",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":9
+            }
+        },
+        {
+            "name":"Saar",
+            "fullName": "The Clan of Saar",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Scavenge",
+                    "text":"After you gain control of a planet, gain 1 trade good."
+                },
+                {
+                    "name":"Nomadic",
+                    "text":"You can score objectives even if you do not control the planets in your home system."
+                }
+            ],
+            "commodities":3,
+            "starting":{
+                "techs":[
+                    "Antimass Deflectors",
+                    "Floating Factory 1",
+                    "Son of Ragh"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 2
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 1
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 2
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    }
+                ],
+                "sector":11
+            }
+        },
+        {
+            "name":"Xxcha",
+            "fullName": "The Xxcha Kingdom",
+            "description":"",
+            "abilities":[
+                {
+                    "name":"Peace Accords",
+                    "text":"AFter you resolve the primary or secondary ability of the \"Deplomacy\" strategy card you may gain control of 1 planet other than Mecatol Rex that does not contain any units and is in a system that is adjacent to a planet you control."
+                },
+                {
+                    "name":"Quash",
+                    "text":"When an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead."
+                }
+            ],
+            "commodities":4,
+            "starting":{
+                "techs":[
+                    "Graviton Laser System",
+                    "Loncara Ssodu"
+                ],
+                "units":[
+                    {
+                        "class":"Carrier",
+                        "count": 1
+                    },
+                    {
+                        "class":"Cruiser",
+                        "count": 2
+                    },
+                    {
+                        "class":"Fighter",
+                        "count": 3
+                    },
+                    {
+                        "class":"Infantry",
+                        "count": 4
+                    },
+                    {
+                        "class":"Space Dock",
+                        "count": 1
+                    },
+                    {
+                        "class":"PDS",
+                        "count": 1
+                    }
+                ],
+                "sector":14
+            }
         }
     ]
 }
