@@ -14,7 +14,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 2,
@@ -29,7 +30,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 3,
@@ -44,7 +46,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 4,
@@ -60,7 +63,8 @@
             ],
             "anomoly":"None",
             "wormholes":[]
-        
+        ,
+            "class":"Home"
         },
         {
             "id": 5,
@@ -75,7 +79,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 6,
@@ -90,7 +95,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 7,
@@ -105,7 +111,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 8,
@@ -120,7 +127,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 9,
@@ -143,7 +151,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 10,
@@ -166,7 +175,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 11,
@@ -189,7 +199,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 12,
@@ -212,7 +223,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 13,
@@ -235,7 +247,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 14,
@@ -258,7 +271,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 15,
@@ -281,7 +295,8 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 16,
@@ -312,14 +327,518 @@
                 }
             ],
             "anomoly":"None",
-            "wormholes":[]
+            "wormholes":[],
+            "class":"Home"
         },
         {
             "id": 17,
             "planets":[
             ],
             "anomoly":"None",
-            "wormholes":["Delta"]
+            "wormholes":["Delta"],
+            "class":"Home"
+        },
+        {
+            "id": 18,
+            "planets":[
+                {
+                    "name": "Mecatol Rex",
+                    "influence": 6,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Other"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Galactic Centre"
+        },
+        {
+            "id": 19,
+            "planets":[
+                {
+                    "name": "Wellon",
+                    "influence": 2,
+                    "resources": 1,
+                    "techSpeciality": "Cybernetic",
+                    "trait": "Industrial"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 20,
+            "planets":[
+                {
+                    "name": "Vefut II",
+                    "influence": 2,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 21,
+            "planets":[
+                {
+                    "name": "Thibah",
+                    "influence": 1,
+                    "resources": 1,
+                    "techSpeciality": "Propulsion",
+                    "trait": "Industrial"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 22,
+            "planets":[
+                {
+                    "name": "Tar'Mann",
+                    "influence": 1,
+                    "resources": 1,
+                    "techSpeciality": "Biotic",
+                    "trait": "Industrial"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 23,
+            "planets":[
+                {
+                    "name": "Saudor",
+                    "influence": 2,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Industrial"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 24,
+            "planets":[
+                {
+                    "name": "Mehar Xull",
+                    "influence": 3,
+                    "resources": 1,
+                    "techSpeciality": "Warfare",
+                    "trait": "Hazardous"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 25,
+            "planets":[
+                {
+                    "name": "Quann",
+                    "influence": 1,
+                    "resources":2,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":["Beta"],
+            "class":"Habitable"
+        },
+        {
+            "id": 26,
+            "planets":[
+                {
+                    "name": "Lodor",
+                    "influence": 1,
+                    "resources": 3,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":["Alpha"],
+            "class":"Habitable"
+        },
+        {
+            "id": 27,
+            "planets":[
+                {
+                    "name": "Starpoint",
+                    "influence": 1,
+                    "resources": 3,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+
+                },
+                {
+                    "name": "New Albion",
+                    "influence": 1,
+                    "resources": 1,
+                    "techSpeciality": "Biotic",
+                    "trait": "Industrial"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 28,
+            "planets":[
+                {
+                    "name": "Torkan",
+                    "influence": 3,
+                    "resources": 0,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                },
+                {
+                    "name": "Tequ'Ran",
+                    "influence": 0,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 29,
+            "planets":[
+                {
+                    "name": "Qucen'N",
+                    "influence": 2,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Industrial"
+
+                },
+                {
+                    "name": "Rarron",
+                    "influence": 3,
+                    "resources": 0,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 30,
+            "planets":[
+                {
+                    "name": "Zohbat",
+                    "influence": 1,
+                    "resources": 3,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+
+                },
+                {
+                    "name": "Mellon",
+                    "influence": 2,
+                    "resources": 0,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 31,
+            "planets":[
+                {
+                    "name": "Sakulag",
+                    "influence": 1,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+
+                },
+                {
+                    "name": "Lazar",
+                    "influence": 0,
+                    "resources": 1,
+                    "techSpeciality": "Cybernetic",
+                    "trait": "Cultural"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 32,
+            "planets":[
+                {
+                    "name": "Dal Bootha",
+                    "influence": 2,
+                    "resources": 0,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                },
+                {
+                    "name": "Xxehan",
+                    "influence": 1,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 33,
+            "planets":[
+                {
+                    "name": "Corneeq",
+                    "influence": 2,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                },
+                {
+                    "name": "Resculon",
+                    "influence": 0,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 34,
+            "planets":[
+                {
+                    "name": "Centauri",
+                    "influence": 3,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Cultural"
+
+                },
+                {
+                    "name": "Gral",
+                    "influence": 1,
+                    "resources": 1,
+                    "techSpeciality": "Propulsion",
+                    "trait": "Industrial"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 35,
+            "planets":[
+                {
+                    "name": "Lirta IV",
+                    "influence": 3,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+
+                },
+                {
+                    "name": "Mellon",
+                    "influence": 1,
+                    "resources": 3,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 36,
+            "planets":[
+                {
+                    "name": "Arnor",
+                    "influence": 1,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Industrial"
+
+                },
+                {
+                    "name": "Lor",
+                    "influence": 2,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Industrial"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 37,
+            "planets":[
+                {
+                    "name": "Meer",
+                    "influence": 4,
+                    "resources": 0,
+                    "techSpeciality": "Warfare",
+                    "trait": "Hazardous"
+                },
+                {
+                    "name": "Arinam",
+                    "influence": 2,
+                    "resources": 1,
+                    "techSpeciality": "None",
+                    "trait": "Industrial"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 38,
+            "planets":[
+                {
+                    "name": "Abyz",
+                    "influence": 0,
+                    "resources": 3,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+                },
+                {
+                    "name": "Fria",
+                    "influence": 0,
+                    "resources": 2,
+                    "techSpeciality": "None",
+                    "trait": "Hazardous"
+                }
+            ],
+            "anomoly":"None",
+            "wormholes":[],
+            "class":"Habitable"
+        },
+        {
+            "id": 40,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": ["Alpha"],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 40,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": ["Beta"],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 41,
+            "planets": [],
+            "anomoly": "Gravity Rift",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 42,
+            "planets": [],
+            "anomoly": "Nebula",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 43,
+            "planets": [],
+            "anomoly": "Supernova",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 44,
+            "planets": [],
+            "anomoly": "Asteroid Field",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 45,
+            "planets": [],
+            "anomoly": "Asteroid Field",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 46,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 47,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 48,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 49,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": [],
+            "class":"Uninhabitable"
+        },
+        {
+            "id": 50,
+            "planets": [],
+            "anomoly": "None",
+            "wormholes": [],
+            "class":"Uninhabitable"
         },
         {
             "id": 51,
