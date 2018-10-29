@@ -25,8 +25,8 @@
         },
         computed:{
             filterFunction:({search})=> {
-                let s = search.toLowerCase();
-                return race => race.fullName.toLowerCase().indexOf(s) >= 0
+                let searches = search.toLowerCase().split('+');
+                return race => searches.map(s => race.fullName.toLowerCase().indexOf(s) >= 0).reduce((acc, found) => acc || found);
                     ;
             }
         },
