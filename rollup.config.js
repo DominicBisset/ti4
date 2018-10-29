@@ -18,7 +18,8 @@ export default {
 		copy([
 			{ files:"src/*.html", dest:"public"},
 			{ files:"src/global.css", dest:"public"},
-			{ files:"data/**/*", dest: "public/data"}
+			{ files:"data/**/*", dest: "public/data"},
+			{ files:"images/**/*", dest: "public/images"}
 		]),
 
 		svelte({

@@ -1,11 +1,23 @@
 <h2>{race.fullName}</h2>
+<div id="racesheets">
+    <img src="images/race_sheets/{sanitise(race.name)}_front.jpg"/>
+    <img src="images/race_sheets/{sanitise(race.name)}_back.jpg"/>
+</div>
 <div id="abilityList">
     {#each race.abilities as ability}
         <h3>{ability.name}</h3>
         <p>{ability.text}</p>
     {/each}
 </div>
-<TechList search="{race.name}"></TechList>
+<div id="techs">
+    <h3>Starting Techs</h3>
+    {#each race.starting.techs as tech}
+        <TechList search="{tech}"></TechList>
+    {/each}
+    <h3>Racial Techs</h3>
+    <TechList search="{race.name}"></TechList>
+</div>
+
 <div id="startingSystem">
     <SystemList search="{{id:race.starting.sector}}"></SystemList>
 </div>
@@ -17,6 +29,18 @@
         components:{
             TechList,
             SystemList
+        },
+        helpers:{
+            sanitise (s) {
+                return  s.replace("'","").replace("-","");
+
+            }
         }
     }
 </script>
+
+<style>
+    img{
+        width:inherit;
+    }
+</style>
