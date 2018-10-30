@@ -15,17 +15,18 @@
     import RaceDetails from './RaceDetails.html';
     import { fade } from 'svelte-transitions';
     
+    let search = (new window.URLSearchParams(window.location.search)).get('search').replace("'","").replace('"',"");
     export default {
         store: () => store,
         components: {
             RaceDetails
         },
         data(){
-            return {search:''}
+            return {search:search}
         },
         computed:{
             filterFunction:({search})=> {
-                let searches = search.toLowerCase().split('+');
+                let searches = search.toLowerCase().split('|');
                 return race => searches.map(s => race.fullName.toLowerCase().indexOf(s) >= 0).reduce((acc, found) => acc || found);
                     ;
             }
