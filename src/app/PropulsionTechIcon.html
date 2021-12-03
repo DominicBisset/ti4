@@ -1,11 +1,17 @@
 <svg height="100" width="100">
+    <defs>
+        <linearGradient id="gradBlue" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="rgb(180, 180, 255)"/>
+            <stop offset="100%" stop-color="rgb(92, 92, 255)"/>
+        </linearGradient>
+    </defs>
     <polygon points="15,30 85,30 50,85"></polygon>
     <polygon points="25,10 75,10 50,50"></polygon>
 </svg>
 
 <style>
     svg>*{
-        fill: rgb(92, 92, 255);
+        fill: url(#gradBlue);
         stroke: blue;
         stroke-width: 2px;
     }

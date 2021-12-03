@@ -1,4 +1,10 @@
 <svg height="100" width="100">
+    <defs>
+        <linearGradient id="gradRed" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="rgb(255, 180, 180)"/>
+            <stop offset="100%" stop-color="rgb(255, 92, 92)"/>
+        </linearGradient>
+    </defs>
     <ellipse cx="50" cy="50" rx="25" ry="40"></ellipse>
     <polygon points="45,2 45,60 10,30"></polygon>
     <polygon points="55,2 55,60 90,30"></polygon>
@@ -6,7 +12,7 @@
 
 <style>
     svg>*{
-        fill: rgb(255, 92, 92);
+        fill: url(#gradRed);
         stroke: red;
         stroke-width: 2px;
     }

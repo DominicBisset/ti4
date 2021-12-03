@@ -1,4 +1,10 @@
 <svg height="100" width="100">
+    <defs>
+        <linearGradient id="gradGreen" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="rgb(180, 255, 180)"/>
+            <stop offset="100%" stop-color="rgb(92, 255, 92)"/>
+        </linearGradient>
+    </defs>
     <circle cx="25" cy="50" r="10" />
     <circle cx="75" cy="50" r="10" />
     <circle cx="50" cy="30" r="25" />
@@ -7,7 +13,7 @@
 
 <style>
     svg>*{
-        fill: rgb(92, 255, 92);
+        fill: url(#gradGreen);
         stroke: green;
         stroke-width: 2px;
     }
